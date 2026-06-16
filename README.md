@@ -42,3 +42,4 @@ Then visit `http://localhost:8000`.
 - No copyrighted images are used. The cover art is a CSS-generated placeholder.
 - Suno links open in a new browser tab.
 - The website is responsive for desktop, tablet and mobile screens.
+- Website published with GitHub Pages.
