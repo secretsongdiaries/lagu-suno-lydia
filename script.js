@@ -4,42 +4,42 @@ const songs = [
     category: "Personal",
     description: "A cinematic reminder that beauty can still shine after difficult seasons.",
     // Paste the Suno song URL for "Gold Beneath the Dust" below.
-    sunoUrl: "https://suno.com/"
+    sunoUrl: "https://suno.com/s/9JBis30iiej8NJri"
   },
   {
     title: "Still Me",
     category: "Personal",
     description: "A tender anthem about identity, softness and remaining whole through change.",
     // Paste the Suno song URL for "Still Me" below.
-    sunoUrl: "https://suno.com/"
+    sunoUrl: "https://suno.com/s/SOsdvUfFEni9OjCV"
   },
   {
     title: "The Hem of His Garment",
     category: "Worship",
     description: "A worshipful song about reaching for faith, mercy and quiet miracles.",
     // Paste the Suno song URL for "The Hem of His Garment" below.
-    sunoUrl: "https://suno.com/"
+    sunoUrl: "https://suno.com/s/EdgmkKYvV0QSy3ap"
   },
   {
     title: "I Start Again",
     category: "English",
     description: "A hopeful new-beginning song for mornings after heartbreak and fear.",
     // Paste the Suno song URL for "I Start Again" below.
-    sunoUrl: "https://suno.com/"
+    sunoUrl: "https://suno.com/s/kXXVCYPnE74XLm5s"
   },
   {
     title: "Only Mine to Miss",
     category: "English",
     description: "A soft, private ballad about longing for someone in a way only you understand.",
     // Paste the Suno song URL for "Only Mine to Miss" below.
-    sunoUrl: "https://suno.com/"
+    sunoUrl: "https://suno.com/s/zslkfCAch08MYTPA"
   },
   {
     title: "When the Snow Remembers",
     category: "Bahasa Melayu",
     description: "A dreamy winter memory wrapped in longing, nostalgia and gentle wonder.",
     // Paste the Suno song URL for "When the Snow Remembers" below.
-    sunoUrl: "https://suno.com/"
+    sunoUrl: "https://suno.com/s/fh4PS9oeWu5gzook"
   }
 ];
 
