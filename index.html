@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Secret Song Diaries is Lydia's dreamy personal song library with music inspired by memories, faith, healing and imagination." />
+  <title>Secret Song Diaries</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-glow" aria-hidden="true"></div>
+
+  <header class="hero" id="top">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="brand" href="#top">Secret Song Diaries</a>
+      <div class="nav-links">
+        <a href="#songs">Songs</a>
+        <a href="#about">About</a>
+      </div>
+    </nav>
+
+    <section class="hero-content" aria-labelledby="hero-title">
+      <p class="eyebrow">Lydia's private constellation of songs</p>
+      <h1 id="hero-title">Secret Song Diaries</h1>
+      <p class="hero-subtitle">Songs born from memories, faith, healing and imagination</p>
+      <a class="primary-button" href="#songs">Explore My Songs</a>
+    </section>
+  </header>
+
+  <main>
+    <section class="song-library" id="songs" aria-labelledby="songs-title">
+      <div class="section-heading">
+        <p class="eyebrow">Song Library</p>
+        <h2 id="songs-title">Open a diary page</h2>
+        <p>Filter by mood, language or devotion, then listen on Suno in a new tab.</p>
+      </div>
+
+      <div class="library-controls" aria-label="Song filters and search">
+        <div class="filter-group" role="group" aria-label="Filter songs by category">
+          <button class="filter-button active" type="button" data-category="All">All</button>
+          <button class="filter-button" type="button" data-category="Personal">Personal</button>
+          <button class="filter-button" type="button" data-category="Worship">Worship</button>
+          <button class="filter-button" type="button" data-category="English">English</button>
+          <button class="filter-button" type="button" data-category="Bahasa Melayu">Bahasa Melayu</button>
+        </div>
+
+        <label class="search-label" for="song-search">
+          <span class="sr-only">Search song titles</span>
+          <input id="song-search" type="search" placeholder="Search song titles..." autocomplete="off" />
+        </label>
+      </div>
+
+      <div class="song-grid" id="song-grid" aria-live="polite"></div>
+      <p class="empty-state" id="empty-state" hidden>No songs found. Try another category or search.</p>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="about-card">
+        <p class="eyebrow">About</p>
+        <h2 id="about-title">A place for songs with a soul</h2>
+        <p>Secret Song Diaries is Lydia’s collection of songs inspired by faith, family, memories, heartbreak, hope and new beginnings.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-brand">Secret Song Diaries</p>
+    <div class="footer-links" aria-label="Social links">
+      <a href="#" aria-label="TikTok placeholder link">TikTok placeholder</a>
+      <a href="#" aria-label="Suno profile placeholder link">Suno profile placeholder</a>
+    </div>
+    <p>&copy; 2026 Secret Song Diaries. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
